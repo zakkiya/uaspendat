@@ -16,8 +16,15 @@ from sklearn import neighbors, datasets
 import pickle
 
 st.sidebar.title('Yuk Cek Obat Kolesterol Yang Sesuai Untukmu!!')
+st.sidebar.write('')
+st.sidebar.write('')
+st.sidebar.write('')
+st.sidebar.write('')
+st.sidebar.write('Contac Me')
 st.sidebar.write('By : Zakkiya Fitri Nur S (200411100097)')
-st.title("Applikasi Web Datamining")
+st.sidebar.write('Email : fnszakkiya@gmail.com ')
+st.sidebar.write('No Hp : 0881026015561')
+
 
 # inisialisasi data 
 data = pd.read_csv('https://raw.githubusercontent.com/zakkiya/dataminingProject/master/drug200%20(1).csv')
